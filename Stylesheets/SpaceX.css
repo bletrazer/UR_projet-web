@@ -1,0 +1,15 @@
+#pageContent > #par2 { /* fond image 1*/
+	background-image: url("../Images/xDGx0JO.jpg.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par1 { /*fond image 2 */
+	background-image: url("../Images/ap_space_spacex_new_rocket_97189852.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

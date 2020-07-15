@@ -1,0 +1,84 @@
+#ban{
+	background-color: #333;
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+div.gallery > div.desc > a{
+	text-decoration: none;
+	color: black;
+}
+div.gallery > div.desc > a:Hover{
+	text-decoration: underline;
+	color: #55564c;
+}
+#textLink {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+a#moreActus {
+	text-decoration: none;
+	color: black;
+}
+a#moreActus:Hover{
+	text-decoration: underline;
+	color: #55564c;
+}
+.responsive {
+	float: left;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+	
+@media screen and (min-width: 701px) {
+	div.gallery {
+		display: flex;
+		align-items: center;
+		border: 1px solid #ccc;
+		width: 80%;
+		margin-bottom: 1%;
+		background-color: rgba(190,190,190,0.5);
+	}
+
+	div.gallery img {
+		width: 350px;
+		height: 100%;
+	}
+	div.gallery > div.desc {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+		div.gallery {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: 1px solid #ccc;
+		width: 100%;
+		margin-bottom: 1%;
+		background-color: rgba(190,190,190,0.5);
+	}
+
+	div.gallery img {
+		width: 100%;
+		height: 100%;
+	}
+	div.gallery > div.desc {
+		text-align: center;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		width: 100%;
+	}
+}

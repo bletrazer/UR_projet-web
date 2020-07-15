@@ -1,0 +1,23 @@
+#pageContent > #par2 { /* fond image 2*/
+	background-image: url("../Images/uber-voiture-autonome.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par1 { /*fond image 1 */
+	background-image: url("../Images/GMCruise.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par3 { /*fond image 3 */
+	background-image: url("../Images/googlecar.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

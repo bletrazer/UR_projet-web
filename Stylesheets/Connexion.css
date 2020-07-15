@@ -1,0 +1,53 @@
+body > #inscription_up {
+position: absolute;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 5;
+}
+
+body > #inscription_up > .loginArea {
+	padding: 1%;
+	border-radius: 1em 1em 1em 1em;
+	background-color: rgb(100,100,100);
+	box-shadow: 8px 8px 18px 5px rgba(0,0,0,0.7);
+}
+
+input{
+	border: 0.1em solid #8D7471;
+	border-radius: 1em;
+	padding: 1%;
+	margin: 1%;
+	width: 90%;
+	background-color: rgba(75,75,75,0.4);
+}
+#Login, #Login:Hover{
+	border: 0.1em solid #8D7471;
+	border-radius: 1em;
+	padding: 1%;
+	margin: 1%;
+	width: 50%;
+	background-color: rgba(75,75,75,0.4);
+	overflow: hidden;
+	cursor: pointer;
+	margin-top: 10%;
+	margin-left: 25%;
+}
+
+.LoginVisibility {
+	visibility: hidden;
+}
+
+body > #inscription_up > div.loginArea > div#closeLogin {
+	float: right;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	
+}

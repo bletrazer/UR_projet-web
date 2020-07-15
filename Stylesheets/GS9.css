@@ -1,0 +1,23 @@
+#pageContent > #par2 { /* fond image 2*/
+	background-image: url("../Images/Samsung-Galaxy-S8-vs-Samsung-Galaxy-S9-4.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par1 { /*fond image 1 */
+	background-image: url("../Images/samsung-galaxy-s8-uhd-4k-wallpaper.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par3 { /*fond image 3 */
+	background-image: url("../Images/03-samsung-galaxy-s9-and-s9-plus.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

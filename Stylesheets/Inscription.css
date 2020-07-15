@@ -1,0 +1,109 @@
+body{
+	background-attachment: fixed;
+	margin: 0;
+}
+
+#pageContent {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(190, 190, 190, 0.7);
+}
+
+#pageContent > div.textbox > p.texte {
+	padding: 1%;
+	width: 100%;
+	flex: 1;
+	/* background-color: red; */
+}
+
+#pageContent > div.textbox {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	/* background-color: red; */
+	width: 100%;
+	flex: 2;
+
+}
+::placeholder {
+	color: red;
+}
+
+#pageContent > div.textbox > input{
+	border: 0.1em solid #8D7471;
+	border-radius: 1em;
+	padding: 1%;
+	margin: 1%;
+	width: 100%;
+	background-color: rgba(75,75,75,0.4);
+}
+
+#pageContent > #valider, #pageContent > #valider:Hover{
+	border: 0.1em solid #8D7471;
+	border-radius: 1em;
+	padding: 1%;
+	margin: 1%;
+	width: 50%;
+	background-color: rgba(75,75,75,0.4);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#pageContent > div.textbox:Hover > p {
+	cursor: help;
+	background-color: gray;
+}
+
+#pageContent > div.textbox > #helpPseudo {
+	
+}
+
+#pageContent > div.textbox > #helpEmail {
+	
+}
+
+#pageContent > div.textbox > #helpMDP {
+	
+}
+#pageContent > div.textbox > div.display {
+}
+#helpPseudoContent, #helpEmailContent, #helpMDPContent {
+	position: absolute;
+	top: 30%;
+	background-color: rgba(255, 20, 20, 0.75);
+	border: 0.2em solid rgb(80, 0, 0);
+}
+.display {
+	display: none;
+}
+
+#pageContent > div > div.helpContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	align-items: center;
+}
+
+#pageContent > div > div.helpContainer > p#close:Hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+@media (min-width: 701px){
+	#pageContent {
+		display: flex;
+		width: 60%;
+		margin-left: 20%;
+	}
+	
+}
+
+@media (max-width: 700px){
+	#pageContent {
+		display: flex;
+		width: 100%;
+	}
+}

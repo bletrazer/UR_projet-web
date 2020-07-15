@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<link rel="stylesheet" href="../Stylesheets/Inscription.css"/>
+		<link rel="stylesheet" href="../Stylesheets/Connexion.css"/>
+		<link rel="stylesheet" href="../Stylesheets/Menu.css"/>
+		
+		<meta charset = "UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=1">
+		<!-- <meta name="viewport" content="width=device-width, user-scalable=1"> -->
+
+		<title>
+	 		Connexion
+		</title>
+	</head>
+
+	<body>
+
+	<!-- LOGO -->
+	<div id="logo">
+		<a href="../Home.html"> <img src="../Images/logo.png" alt="logo"/></a>
+	</div>
+	<div id="phrase">
+		<p>Site d'actualités Technologique et high-tech</p>
+	</div>
+	<!-- MENU -->
+	<div id="menu">
+		<ul>
+		  <li class="menuDisplay"><a href="../Home.html">Home</a></li>
+		  <li class="menuDisplay"><a href="Actus.html">Actus</a></li>
+		  <li class="menuDisplay"><a class="active" id="boutonSignUp" href="">S'inscrire</a></li>
+		  <li><a class="bouton_menu_display" id="bouton_menu" href="">&#9776;</a></li>
+		</ul>
+	</div>
+		
+		<div id="pageContent">
+		
+			<div class="textbox">
+				<p class="texte" id="helpPseudo" title="click pour voir l'aide"> Pseudo:</p>
+				<input type="text" id="Pseudo"></input>
+			</div>
+			<div id="helpPseudoContent" class="display">
+				<div class="helpContainer">
+					<p id="close"> [X] </p>
+					<p> Votre pseudo doit:</p>
+					<ul>
+						<li>Contenir uniquement des lettres ou des chiffres.</li>
+						<li>Contenir au moins 4 caractères.</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="textbox">
+				<p class="texte" id="helpEmail" title="Click pour voir l'aide"> Email: </p>
+				<input type="email" id="Email"></input>
+			</div>
+			<div id="helpEmailContent" class="display">
+				<div class="helpContainer">
+					<p id="close"> [X] </p>
+					<p> Votre E-Mail doit:</p>
+					<ul>
+						<li>Contenir au moins un "@ - arobase" et un ". - point".</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="textbox">
+				<p class="texte" id="helpMDP"> mot-de-passe: </p>
+				<input type="password" id="MDP"></input>
+			</div>
+			<div id="helpMDPContent" class="display">
+				<div class="helpContainer">
+					<p id="close"> [X] </p>
+					<p> Votre mot-de-passe doit:</p>
+					<ul>
+						<li>Contenir au moins une majuscule.</li>
+						<li> Contenir au moins une minuscule. </li>
+						<li> Contenir au moins un chiffre. </li>
+						<li> Contenir plus de 6 caractères.</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- <div class="textbox"> -->
+				<!-- <div class="input"> -->
+					<!-- <input type="text" id="MDP2" placeholder="Répétez mot-de-passe"></input> -->
+					<!-- <p class="error"> </p> -->
+				<!-- </div> -->
+			<!-- </div> -->
+			
+			<input id="valider" type="submit"></input>
+			
+		</div>
+	</body>
+<script src="../Scripts/jQuery.js"></script>
+<script src="../Scripts/Menu.js"></script>
+<script src="../Scripts/Inscription.js"></script>
+</html>

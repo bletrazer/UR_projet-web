@@ -1,0 +1,15 @@
+#pageContent > #par2 { /* fond image 1*/
+	background-image: url("../Images/amd.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#pageContent > #par1 { /*fond image 2 */
+	background-image: url("../Images/nvidia_geforce_gtx_logo_artwork.jpg");
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

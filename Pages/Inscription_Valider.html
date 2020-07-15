@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<link rel="stylesheet" href="../Stylesheets/Inscription.css"/>
+		<link rel="stylesheet" href="../Stylesheets/Style.css"/>
+		<link rel="stylesheet" href="../Stylesheets/Menu.css"/>
+		<link rel="stylesheet" href="../Stylesheets/Connexion.css"/>
+		
+		<meta charset = "UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=1">
+		<!-- <meta name="viewport" content="width=device-width, user-scalable=1"> -->
+
+		<title>
+	 		Connexion
+		</title>
+	</head>
+
+	<!-- LOGO -->
+	<div id="logo">
+		<a href="../Home.html"> <img src="../Images/logo.png" alt="logo"/></a>
+	</div>
+	<div id="phrase">
+		<p>Site d'actualités Technologique et high-tech</p>
+	</div>
+	<!-- MENU -->
+	<div id="menu">
+		<ul>
+		  <li class="menuDisplay"><a href="../Home.html">Home</a></li>
+		  <li class="menuDisplay"><a href="Actus.html">Actus</a></li>
+		  <li class="menuDisplay"><a id="boutonLogin" href="">Se Connecter</a></li>
+		  <li class="menuDisplay"><a class="active" id="boutonSignUp" href="Inscription.html">S'inscrire</a></li>
+		  <li><a class="bouton_menu_display" id="bouton_menu" href="">&#9776;</a></li>
+		</ul>
+	</div>
+	<div id="inscription_up" class="LoginVisibility">
+		<div class="loginArea">
+			<div id="closeLogin"> &#9938; </div>
+			<p> Identifiant: </p>
+			<input type="text" id="Pseudo"></input>
+			<p> Mot de passe: </p>
+			<input type="password" id="MDP"></input>
+			<input id="Login" type="submit"></input>
+		</div>
+	</div>
+		
+		<div id="pageContent">
+			<p> Votre inscription a été prise en compte, vous allez recevoir un e-mail de confirmation. </p>
+		</div>
+	</body>
+<script src="../Scripts/jQuery.js"></script>
+<script src="../Scripts/Menu.js"></script>
+<script src="../Scripts/Inscription.js"></script>
+<script src="../Scripts/Connexion.js"></script>
+</html>
